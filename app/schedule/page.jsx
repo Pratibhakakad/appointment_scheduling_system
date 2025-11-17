@@ -43,7 +43,7 @@ export default function SchedulePage() {
           <div className="flex items-center justify-between w-[358px] h-[58px] bg-white rounded-[10px] p-2">
             <div className="flex items-center gap-[12px]">
               <Image
-                src={PATIENTS.find((p) => p.id === selectedPatient).photo}
+                src={PATIENTS.find((p) => p.id === selectedPatient).image}
                 alt="patient"
                 width={42}
                 height={42}
@@ -69,7 +69,7 @@ export default function SchedulePage() {
           <div className="flex items-center justify-between w-[359.75px] h-[58px] bg-white rounded-[12px] p-2">
             <div className="flex items-center gap-[12px]">
               <Image
-                src={DOCTORS.find((d) => d.id === selectedDoctor).photo}
+                src={DOCTORS.find((d) => d.id === selectedDoctor).image}
                 alt="doctor"
                 width={42}
                 height={42}

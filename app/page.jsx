@@ -58,7 +58,7 @@ export default function DashboardPage() {
           >
             <div className="relative w-12 h-12 rounded-full overflow-hidden">
               <Image
-                src="/doc_img.JPG"
+                src="/patient.JPG"
                 alt="Patient Profile"
                 fill
                 className="object-cover"
